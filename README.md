@@ -53,6 +53,10 @@
 
 ## 快速开始
 
+### Android 独立客户端
+
+本工程新增了 `mobile/` 安卓客户端，可独立截屏、导入图片、直接调用 AI 并多轮追问；「面试」页移植桌面对话模式，支持连续 ASR、自动/手动提示、追问重写、悬浮提词、场景、资料与加密历史，也可本机导入 PDF/DOCX。客户端在手机独立运行；腾讯会议同机音频需先连接电脑进行 USB 激活，激活后可拔线使用，重启或激活过期后需重新激活。微信小程序通话音轨尚未适配。安装、能力边界与构建步骤见 [Android 客户端说明](mobile/README.md)。
+
 ### 1. 下载安装
 
 到 [Releases](https://github.com/ooboqoo/shiping/releases) 下载安装包：Windows 用 `setup.exe`，macOS 用 `.dmg`（目前只提供 Apple 芯片版本，Intel 芯片的 Mac 请[从源码运行](#从源码运行)）。安装和首次打开的注意事项见 [Wiki 教程](https://github.com/ooboqoo/shiping/wiki/%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8C%85%E4%BD%BF%E7%94%A8)。

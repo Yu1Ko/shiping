@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.tools/
+.gradle-home/
+artifacts/
+test-results/
+playwright-report/
+android/.gradle/
+android/local.properties
+android/**/build/
+android/app/src/main/assets/public/
+*.jks
+*.keystore
